@@ -15,7 +15,7 @@ When entering your n and k values, please note that per the theorem, the equatio
 
 The maximum z value in the program is also larger than the k submitted, as it is calculated to be the root of the nearest whole number should both x and y be at the total k value. So, should k be 100, the maximum z value would be the n root of k^n + k^n. 
 
-Should you be interested in working with numbers outside of the current range constraints, you may edit the code in the python file yourself by changing the number range in line 122 for a larger n value to be allowed, or you may edit line 130 for a larger k value to be allowed. Please note that the theorem does not apply to n values less than 3, and larger k values  increase the time for the program to complete exponentially.
+Should you be interested in working with numbers outside of the current range constraints, you may edit the code in the python file yourself by changing the number range in the nInput() function for a larger n value to be allowed, or you may edit the kInput() function for a larger k value to be allowed. Please note that the theorem does not apply to n values less than 3, and larger k values  increase the time for the program to complete exponentially.
 
 # Support
 Please reach out to the creator through their email provided in the opening comment of the program, or by leaving a comment on github for assistance.
